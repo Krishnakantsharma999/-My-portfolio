@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishnakant-Developer portfolio</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins?preview.text=Whereas%20recognition%20of%20the%20inherent%20dignity">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-color: rgb(0, 0,33);
+            color: white;
+            font-family: 'Poppins',sans-serif;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(10, 10, 90);
+            padding: 10px 20px;
+        }
+         /* Logo */
+    .navbar .logo {
+      font-size: 1.7em;
+      font-weight: bold;
+    }
+
+    /* Navigation links */
+    .navbar ul {
+      list-style: none;
+      display: flex;
+    }
+
+    .navbar ul li {
+      margin-left: 20px;
+    }
+
+    .navbar ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+        nav ul li a:hover{
+            
+            color:rgb(81, 81, 228);
+        }
+        
+        
+     /* Hamburger menu button (hidden on larger screens) */
+     .menu-toggle {
+      display: none;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      /* Hide the navigation links by default */
+      .navbar ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(33, 33, 107);
+        position: absolute;
+        top: 70px;
+        left: 0;
+      }
+
+      /* Display navigation links when the menu is toggled */
+      .navbar ul.active {
+        display: flex;
+      }
+
+      /* Show the hamburger menu icon */
+      .menu-toggle {
+        display: block;
+      }
+    }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+        }
+        .firstsection > div{
+            width: 30%;
+        }
+        .leftsection{
+            font-size: 2rem;
+             
+        }
+        .leftsection .buttons{
+            padding: 50px 0;
+        }
+        .leftsection .btn{
+            padding:12px ;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+             
+        }
+        .rightsection img{
+            width: 80%;
+            margin: 50px 0;
+        }
+        .purple{
+            color: rgb(171, 103, 235);
+        }
+        #element{
+            color: rgb(171, 103, 235);
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondsection h1{
+            font-size: 1.6rem;
+        }
+        .secondsection .box{
+            display: flex;
+            background: white;
+            width: 85vw;
+            height: 2px;
+            margin: 56px 0;
+        }
+        .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 140px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .text-grey{
+            color: grey;
+        }
+        footer{
+            background-color: rgb(22, 12, 80);
+            
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer >div {
+            width: 223px;
+        }
+        footer .footer-right{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Krishnakant's Portfolio</div>
+        <nav>
+          <ul>
+            <li><a href="portfolio2.html" target="_blank">Home</a></li>
+            <li><a href="Aboutme.html"  target="_blank">About</a></li>
+            <li><a href="Project.html"  target="_blank">Project</a></li>
+            <li><a href="Skill.html"  target="_blank">Skill</a></li>
+            <li><a href="Contact.html"  target="_blank">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple"> Krishnakant</span>
+                <div>and I am a passionate</div> 
+                <div>Web Developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src=".\PngItem_1127587.png" 
+                alt="Developer Image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey"> What I have done so far</span>
+            <h1> Completed Subjects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\krish\OneDrive\Desktop\Myportfolio\developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML AND CSS
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque consectetur deleniti commodi natus quod facere! Consequatur nemo similique neque, in eum sapiente iure ipsam.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\krish\OneDrive\Desktop\Myportfolio\developer.png" alt="">
+                    <div class="vertical-title">
+                        MYSQL AND DBMS
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque consectetur deleniti commodi natus quod facere! Consequatur nemo similique neque, in eum sapiente iure ipsam.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\krish\OneDrive\Desktop\Myportfolio\developer.png" alt="">
+                    <div class="vertical-title">
+                        C++ AND OOPS
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque consectetur deleniti commodi natus quod facere! Consequatur nemo similique neque, in eum sapiente iure ipsam.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\krish\OneDrive\Desktop\Myportfolio\developer.png" alt="">
+                    <div class="vertical-title">
+                        ML AND COA
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque consectetur deleniti commodi natus quod facere! Consequatur nemo similique neque, in eum sapiente iure ipsam.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Krishnakant's Developer Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+           Copyright &copy; www.Krishnakantportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Ui/Ux Designer','Problem Solver'],
+          typeSpeed: 50,
+        });
+      </script>
+       <script>
+        /* JavaScript to toggle the active class on menu */
+        function toggleMenu() {
+          const navLinks = document.querySelector('.navbar ul');
+          navLinks.classList.toggle('active');
+        }
+      </script>
+</body>
+</html>
