@@ -17,8 +17,8 @@ I'm a curious developer based in ruthiyai, with an interest in solving real-worl
 
 You can reach me at:
 - **Email**: krishnakantsharma.231b172@gmail.com
-- **LinkedIn**: [linkedin.com/in/yourname](
-- **Portfolio Website**: [yourwebsite.com](
+- **LinkedIn**: [linkedin.com/in/yourname](https://www.linkedin.com/in/krishnakant-sharma-736907335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- **Portfolio Website**: [yourwebsite.com](https://krishnakantsharma999.github.io/portfolio/)
 
 ---
 
